@@ -1,15 +1,39 @@
 {
-  "dependencies": {
-    "express": "^4.18.2"
-  },
   "name": "comp2156",
-  "description": "comp2156 Lab test",
   "version": "1.0.0",
+  "description": "comp2156 lab exercise",
   "main": "index.js",
-  "devDependencies": {},
+  "homepage": "https://Jassapb09.github.io/COMP2156/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "echo \"Warning: No tests created yet.\"",
+    "eject": "react-scripts eject"
   },
-  "author": "Jaspreet Kaur",
-  "license": "ISC"
+  "keywords": [],
+  "author": "Vince Marando",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "travis": "^0.1.1",
+    "web-vitals": "^2.1.4",
+    "yarn": "^1.13.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
 }
